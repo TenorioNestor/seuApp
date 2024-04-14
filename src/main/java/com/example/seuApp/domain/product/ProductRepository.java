@@ -1,2 +1,7 @@
-package com.example.seuApp.domain.product;public class ProductRepository {
+package com.example.seuApp.domain.product;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProductRepository extends JpaRepository<Product,Integer> {
+
 }

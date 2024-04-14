@@ -1,2 +1,4 @@
-package com.example.seuApp.domain.product;public class RequestCategory {
+package com.example.seuApp.domain.product;
+
+public record RequestCategory(String NOME, Boolean DISPONIVEL ) {
 }
